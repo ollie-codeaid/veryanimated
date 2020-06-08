@@ -1,0 +1,9 @@
+
+.imageBackground {
+	background-repeat:no-repeat;
+	background-position:center;
+	background-width:250px;
+	height:250px; }
+
+.slide { width: 100% }	
+.slide img {margin: auto; display: block; text-align:center}
