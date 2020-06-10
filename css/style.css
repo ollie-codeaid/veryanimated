@@ -2,8 +2,20 @@
 .imageBackground {
 	background-repeat:no-repeat;
 	background-position:center;
-	background-width:250px;
-	height:250px; }
+  background-size: cover;
+}
 
-.slide { width: 100% }	
-.slide img {margin: auto; display: block; text-align:center}
+.bioPic {
+  width: 100%;
+  padding-bottom:3%;
+}
+
+@media (min-width: 550px) {
+  .bioPic {
+    max-width:320px;
+    float:left;
+    padding-right:3%;
+    padding-bottom:3%;
+    padding-top:1.5%;
+  }
+}
